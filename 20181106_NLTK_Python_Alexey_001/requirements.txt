@@ -1,0 +1,5 @@
+
+pattern>=2.6
+nltk>=3.3
+numpy>=1.15.4
+scandir>=1.9.0
