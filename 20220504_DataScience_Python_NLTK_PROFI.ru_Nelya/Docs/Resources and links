@@ -1,0 +1,43 @@
+Visualisation:
+X axis is length of number_of_comments
+Y axis is positive_comments_percents + negative_comments_percents
+
+Visualisation libs:
+import numpy as np # Import numpy lib
+from numpy import convolve # 
+import matplotlib.pyplot as plt
+
+plt.style.use('ggplot')
+
+x = [1, 2, 3]
+y = [1, 2, 3]
+
+# Draw 
+plt.plot(x, y, 'o-')
+plt.show()
+
+Reference to libs:
+matplotlib for plots - https://matplotlib.org/2.0.2/users/pyplot_tutorial.html
+
+
+Links to resources:
+Polygot sentiment (psotive or negative) analizer - https://polyglot.readthedocs.io/en/latest/Installation.html
+Natasha NER (classification) Habr - https://habr.com/ru/post/516098/
+Dostoevsky sentiment analysis Stanford - https://russiannlp.sites.stanford.edu/resources
+Latent Dirichlet Allocation or distribution LDA it's classification for traning  - https://github.com/priya-dwivedi/Deep-Learning/blob/master/topic_modeling/LDA_Newsgroup.ipynb
+LDA and traning NN - https://blog.ovhcloud.com/what-does-training-neural-networks-mean/#:~:text=In%20simple%20terms%3A%20Training%20a,propagation%20%E2%80%A6%20and%20that's%20it%20folks.
+1. Activation functions in perceptorn - https://towardsdatascience.com/everything-you-need-to-know-about-activation-functions-in-deep-learning-models-84ba9f82c253
+2. Activation functions in perceptorn  https://medium.com/nerd-for-tech/deep-learning-activation-functions-their-mathematical-implementation-b620d536d39b
+3. Perceptron - https://www.researchgate.net/figure/The-perceptron-model-used-for-the-accident-mapping-application_fig5_259846602
+4. Pictures of Diff activation functions - https://www.researchgate.net/figure/Fig-3-The-basic-activation-functions-of-the-neural-networksNeural-Networks_fig3_350567223
+
+NLTK docs - https://www.nltk.org/howto/sentiment.html
+
+NLTK - Diagram of Tree assumption by me and senior dev:
+Root node: S - subject
+Rigth leaf: NP-SBJ - то над чем происходит действие 
+Left leaf: VP
+
+Problem & solution with tree - https://github.com/nltk/nltk/issues/1765
+Draw tree inside of Jupyter - https://stackoverflow.com/questions/44880337/use-tkinter-for-nltk-draw-inside-of-jupyter-notebook
+Parse text into tree using python nltk and draw it - https://stackoverflow.com/questions/42322902/how-to-get-parse-tree-using-python-nltk

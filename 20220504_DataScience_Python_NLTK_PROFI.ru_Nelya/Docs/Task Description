@@ -1,0 +1,40 @@
+У меня есть 985 комментариев о работе компании и пожеланиях клиентов. 
+1. Нужно получить коэффициенты сентиментов по каждому, то есть насколько комментарий 
+положительный или отрицательный. 
+2. Также желательно определить, к каким отделам относятся 
+эти комментарии, чтобы понять, кому их надо брать в работу. 
+3. Задача максимум: ещё и связать 
+коэффициенты сентиментов (negative or positive) с количественными оценками (customer_loyalty), которые клиенты выставляли по 
+отдельным критериям работы компании (2 пунк задачи). Вы такое умеете делать?
+
+189 = 1 - quantity
+x = 0.6 - negative 
+
+compound = c
+quantity = q
+number_of_comments = n
+
+n = q
+x = c
+
+quantity_negative 
+quantity_positive
+
+189 = 1
+quantity_negative = quantity_negative_percent
+
+(quantity_negative * 1) / 189 = quantity_negative_percent
+(quantity_negative * 1) / n = quantity_negative_percent
+
+First:
+positive_comments / number_of_comments = customer_loyalty
+
+Second:
+quantity_negative = quantity_positive = sentiment (0.0-1.0)
+
+sentiment / number_of_comments = customer_loyalty or s / n = c
+
+Visualisation:
+X axis is length of number_of_comments
+Y axis is positive_comments_percents + negative_comments_percents
+

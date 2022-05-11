@@ -1,0 +1,5 @@
+NLTK - Diagram or Tree
+
+Root node: S - subject
+Rigth leaf: NP-SBJ - то над чем происходит действие 
+Left leaf: VP
