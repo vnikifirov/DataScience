@@ -20,6 +20,8 @@
 
 8. [Neural Network Disease Manpreet v001](https://github.com/vnikifirov/DataScience/tree/master/20181129_NN_Disease_Manpreet_001)
 
+9. [KIU 🎓📜 Data Science / Python 🧑‍💻 Academic task 🎓 - Python Cattery, or House 🏡 for domestic Pets 😺🐈🐈‍⬛ and UML diogram 🖼️ for KIU 🎓 ](https://github.com/vnikifirov/DataScience/tree/master/20220504_DataScience_Python_OOP_and_UML_KIU)
+
 # Note
 
 * If you like this repo and find it useful, please consider ★ starring it (on top right of the page) :)
