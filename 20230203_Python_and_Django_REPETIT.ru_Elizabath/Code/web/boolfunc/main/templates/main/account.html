@@ -1,0 +1,83 @@
+{% extends 'main/base.html' %}
+{% load static%}
+
+{% block href%}
+<link rel="stylesheet" href="https://bootstraptema.ru/plugins/2015/bootstrap3/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://bootstraptema.ru/plugins/jquery/jquery-1.11.3.min.js"></script>
+<script src="https://bootstraptema.ru/plugins/2015/b-v3-3-6/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{%static 'main/css/account.css' %}" />
+{% endblock %}
+
+{% block title %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+<div id="main">
+ {% if profile.user.is_superuser %}
+  <a class="btn btn-outline-primary" href="{% url 'register' %}">Регистрация нового студента</a>
+ {%else%}
+   <div class="row" id="real-estates-detail">
+
+    <div class="col-lg-4 col-md-4 col-xs-12">
+
+     <div class="panel panel-default">
+
+       <div class="text-center" id="author">
+        <h3>{{profile.user.last_name}} {{profile.user.first_name}}</h3>
+        <small class="label label-warning">{{profile.group}}</small>
+        </br>
+       </div>
+
+     </div>
+
+    </div>
+
+    <div class="col-lg-8 col-md-8 col-xs-12">
+
+     <div class="panel">
+
+      <div class="panel-body">
+
+       <ul id="myTab" class="nav nav-pills">
+        <li class="active"><a href="#detail" data-toggle="tab">Информация</a></li>
+        <li class=""><a href="#contact" data-toggle="tab">Решённые задачи</a></li>
+       </ul>
+
+       <div id="myTabContent" class="tab-content">
+
+        <hr>
+         <div class="tab-pane fade active in" id="detail">
+
+          <h4>История профиля</h4>
+          <table class="table table-th-block">
+           <tbody>
+            <tr><td class="active">Зарегистрирован:</td><td>{{profile.user.date_joined}}</td></tr>
+            <tr><td class="active">Последняя активность:</td><td>{{profile.user.last_login}}</td></tr>
+            <tr><td class="active">Страна:</td><td>{{profile.user.email}}</td></tr>
+            <tr><td class="active">Рейтинг студента:</td><td>{{profile.rating}}</td></tr>
+           </tbody>
+          </table>
+
+         </div>
+
+         <div class="tab-pane fade" id="contact">
+          <ul>
+          </ul>
+         </div>
+
+       </div>
+
+      </div>
+
+     </div>
+
+    </div>
+
+   </div>
+ {% endif %}
+</div>
+
+
+{% endblock content %}
