@@ -18,11 +18,11 @@
 
 8. [Neural Network Disease Manpreet v001](https://github.com/vnikifirov/DataScience/tree/master/20181129_NN_Disease_Manpreet_001)
 
-9. [Computer Sience - Python (algebra bolean)](https://github.com/vnikifirov/DataScience/tree/master/20221001_DataScience_Python_Asymptomatic_Analisis_REPETIT.ru_Egor)
+9. [Computer Sience - Python, Hash Table and circle buffer](https://github.com/vnikifirov/DataScience/tree/master/20221001_DataScience_Python_Asymptomatic_Analisis_PROFI.ru_Egor)
 
-10. [Finance 💵 - simple bank 🏦 rate 💹](https://github.com/vnikifirov/DataScience/tree/master/20231231_Python_FinanceAndComputerSience_KazanInovationUnuvercity)
+10. [Finance 💵 - Simple bank 🏦 rate 💹 of Kazan Inonavation Univercity](https://github.com/vnikifirov/DataScience/tree/master/20221231_Python_FinanceAndComputerSience_KazanInovationUnuvercity)
 
-11. [Computer Sience - Django and Python + Computer Sience specificaly algebra bolean 🧮](https://github.com/vnikifirov/DataScience/tree/master/20230203_Python_and_Django_REPETIT.ru_Elizabath)
+11. [Computer Sience - Django (MVC and DataBase Migrations) on front end and Python + Computer Sience specificaly algebra bolean 🧮](https://github.com/vnikifirov/DataScience/tree/master/20230203_Python_and_Django_REPETIT.ru_Elizabath)
 
 12. [Machine Learning, Finance 💵 - The Bank 🏦 rate that's based on Centro Bank 🏦 of Russia Federation 🇷🇺 Website 🌐 💹](https://github.com/vnikifirov/DataScience/tree/master/20230204_Python_Finance_MachineLearning_KeyRatePrediction_Anastasiya)
 
