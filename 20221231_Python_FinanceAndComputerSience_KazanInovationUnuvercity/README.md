@@ -1,6 +1,6 @@
 # Finance 🏦💵💹 and Computer Sience 🧬
 
-[Services 👨‍💻 what calculate simple bank 🏦 rate 💹](https://github.com/vnikifirov/DataScience/blob/master/20231231_Python_FinanceAndComputerSience_KazanInovationUnuvercity/Code)
+[Services 👨‍💻 what calculate simple bank 🏦 rate 💹](https://github.com/vnikifirov/DataScience/tree/master/20221231_Python_FinanceAndComputerSience_KazanInovationUnuvercity/Code)
 
 # Note
 
