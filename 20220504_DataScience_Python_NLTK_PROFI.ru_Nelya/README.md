@@ -10,8 +10,6 @@
  
 4. [Data for analisys](https://github.com/vnikifirov/DataScience/blob/master/20220504_DataScience_Python_NLTK_PROFI.ru_Nelya/Data)
 
-5. [Documents to the program / script](https://github.com/vnikifirov/DataScience/blob/master/20220504_DataScience_Python_NLTK_PROFI.ru_Nelya/Libraries)
-
 # Description 📋:
 
 [...]
