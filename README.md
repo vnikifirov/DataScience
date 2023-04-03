@@ -26,7 +26,7 @@
 
 12. [Machine Learning, Finance 💵 - The Bank 🏦 rate that's based on Centro Bank 🏦 of Russia Federation 🇷🇺 Website 🌐 💹](https://github.com/vnikifirov/DataScience/tree/master/20230204_Python_Finance_MachineLearning_KeyRatePrediction_Anastasiya)
 
-13. [Machine Learning, Finance 💵 - The Bank 🏦 rate that's based on Centro Bank 🏦 of Russia Federation 🇷🇺 Website 🌐 💹](https://github.com/vnikifirov/DataScience/tree/master/20230403_Python_HTML_and_CSS_VadimNikiforov)
+13. [Python 🐍 - Just Python 🐍 and it is unning in HTML](https://github.com/vnikifirov/DataScience/tree/master/20230403_Python_HTML_and_CSS_VadimNikiforov)
 
 # Note 📝
 
