@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <title>Python HTML app Hello World</title>
+</head>
+<body>
+    <py-script>  
+        class Welcome:
+            def Hello(name):
+                print("Hello {0}! 👋".format(name))
+
+        Welcome.Hello("Sue")
+        Welcome.Hello("Vadim")
+        Welcome.Hello("Anna")
+    </py-script>
+</body>
+</html>
